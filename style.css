@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+/* HEADER */
+header{
+    min-height: 55px;
+
+    padding-top: 2%;
+
+    display: flex;
+    justify-content: space-around;
+
+    border: 1px solid black;
+    background-color: rgb(19, 19, 19);
+    width: auto;
+    height: 140px;
+}
+.headerdiv1{
+    margin-right: 30%;
+}
+
+.h1h{
+    display: inline-block;
+    position: absolute;
+    
+    color: white;
+
+    font-size: 2em;   
+
+    padding-top: 10px;
+    padding-left: 8px;
+
+}
+.img1header{
+    display: inline-block;
+    width: 100px;
+
+    padding-right: 5px;
+
+    margin-top: -25px;
+}
+
+.menubar{
+    display: flex;
+    text-align: center;
+
+    padding-top: 8px;
+}
+.menubutton{
+    border: 1px solid black;
+    border-radius: 40px;
+    
+    margin-left: 20px;
+
+    display:flex;
+    align-items: center;
+    font-size: 0.95vw;  
+    padding: 20px;
+    height: 10%;
+    width: auto;
+
+    background-color: rgb(108, 40, 255);
+    text-decoration: none;
+    color: #ffffff;
+}
+.menubutton:hover{
+    text-decoration: underline;
+    box-shadow: inset 1px 1px 13px 1px rgb(109, 145, 171);
+    transition: 0.4s;
+}
+
+/* MAIN */
+
+h2{
+    font-size: 1.4em;   
+}
+
+
+.section1{
+    background-image: linear-gradient(rgb(255, 255, 255) 50%, rgb(180, 176, 255) 50%);
+
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 30px;
+}   
+.img1div1{
+    max-width: 250px;
+    border-radius: 80px;
+}
+.mainsectiondiv{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+}
+.section1div1{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 100px;
+    padding-left: 15px;
+}
+.section1div1_2{
+    display:flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.section1div2{
+    padding-top: 47px;
+}
+.section1div2 p{
+    padding-top: 17px;
+}
+.sectiondiv1button{
+
+    background-color: rgb(40, 40, 40);
+    text-decoration: none;
+    color: white;
+
+    border: 1px solid black;
+    border-radius: 30px;
+
+    text-align: center;
+    font-size: 1vw;
+
+    padding: 10px;
+}
+.div-saiba-button{
+    display:flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 100px;
+}
