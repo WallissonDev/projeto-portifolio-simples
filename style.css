@@ -16,7 +16,6 @@ header{
     display: flex;
     justify-content: space-around;
 
-    border: 1px solid black;
     background-color: rgb(19, 19, 19);
     width: auto;
     height: 140px;
@@ -33,7 +32,7 @@ header{
 
     font-size: 2em;   
 
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 8px;
 
 }
@@ -43,7 +42,7 @@ header{
 
     padding-right: 5px;
 
-    margin-top: -25px;
+    margin-top: -10px;
 }
 
 .menubar{
@@ -57,13 +56,12 @@ header{
     border-radius: 40px;
     
     margin-left: 20px;
-
-    display:flex;
-    align-items: center;
+    text-align: left;
+    
     font-size: 0.95vw;  
     padding: 20px;
-    height: 10%;
-    width: auto;
+    width: 85px;
+    height: 12%;
 
     background-color: rgb(108, 40, 255);
     text-decoration: none;
@@ -73,10 +71,16 @@ header{
     text-decoration: underline;
     background-color: white;
     color: black;
-    transition: 0.4s;
+    transition: 0.3s;
+}
+.workbutton:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
 }
 
-/* MAIN */
+/* MAIN - Section 1 - Experience*/ 
 
 h2{
     font-size: 1.4em;   
@@ -88,9 +92,13 @@ h2{
 
     display: flex;
     justify-content: space-evenly;
+    flex-direction: row-reverse;
 
-    padding: 30px;
+    padding: 170px 30px 30px 30px;
 }   
+.section1 h2{
+    padding-bottom: 10px;
+}
 .img1div1{
     border-radius: 70px;
     max-width: 100%;
@@ -127,16 +135,111 @@ h2{
     color: white;
 
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 50px;
 
     text-align: center;
     font-size: 1vw;
 
-    padding: 10px;
+    padding: 20px;
+    
 }
-.div-saiba-button{
-    display:flex;
+.sectiondiv1button:hover{
+    background-color: white;
+    color: black;
+    
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+/* Section 2 - Work and Passion*/
+
+.worksection{
+    display: flex;
+    margin-top: 300px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+
+    background-color: rgba(180, 176, 255);
+}
+.workimg{
+    width: 420px;
+    height: 530px;
+
+    border: 1px solid rgba(0, 0, 0, 0.451);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    box-shadow: 1px 1px 6px -1px rgba(0, 0, 0, 0.719);
+}
+.workdiv{
+    display: flex;
     flex-direction: column;
-    padding-left: 15px;
-    padding-top: 100px;
+    justify-content: space-evenly;
+
+    padding-left: 6%;
+    width: 45%;
+}
+.workdiv h2{
+    padding-bottom: 10px;
+}
+.workbutton{
+
+    display: inline-block;
+
+    background-color: rgb(40, 40, 40);
+    text-decoration: none;
+    color: white;
+
+    border: 1px solid black;
+    border-radius: 50px;
+
+    text-align: center;
+    font-size: 1vw;
+
+    padding: 20px;
+    margin-top: 30px;
+    
+    width: 100px;
+}
+/* Section 3 - Contact*/
+
+.contact{
+
+    background-color: rgb(40, 40, 40);
+
+    color: white;
+
+    margin-top: 270px;
+    padding: 45px 30px 10px 30px;
+}
+.contact-title{
+    display: inline-block;
+
+    min-height: 250px;
+
+    padding-left: 15%;
+    font-size: 4em;
+}
+.contact-p{
+    display: inline-block;
+
+    margin-left: 17%;
+
+    max-width: 400px;
+}
+.contact-nav{
+    display: inline-block; 
+
+    padding-top: 15px;
+}
+.contact-nav a{
+    padding-right: 20px;
+}
+/* Footer - End */
+
+.footer-p{
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 17px;
 }
