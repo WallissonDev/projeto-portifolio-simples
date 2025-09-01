@@ -113,7 +113,7 @@ h2{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 100px;
+    padding-bottom: 120px;
     padding-left: 15px;
 }
 .section1div1_2{
@@ -243,3 +243,7 @@ h2{
     background-color: rgb(31, 31, 31);
     padding: 17px;
 }
+.nav-icon{
+    width: 30px;
+    height: 30px;
+} 

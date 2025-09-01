@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+/* HEADER */
+header{
+    min-height: 55px;
+
+    padding-top: 2%;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgb(19, 19, 19);
+    width: auto;
+    height: 140px;
+}
+.headerdiv1{
+    margin-right: 30%;
+}
+
+.h1h{
+    display: inline-block;
+    position: absolute;
+    
+    color: white;
+
+    font-size: 2em;   
+
+    padding-top: 15px;
+    padding-left: 8px;
+
+}
+.img1header{
+    display: inline-block;
+    width: 100px;
+
+    padding-right: 5px;
+
+    margin-top: -10px;
+}
+
+.menubar{
+    display: flex;
+    text-align: center;
+
+    padding-top: 8px;
+}
+.menubutton{
+    border: 1px solid black;
+    border-radius: 40px;
+    
+    margin-left: 20px;
+    text-align: left;
+    
+    font-size: 0.95vw;  
+    padding: 20px;
+    width: 85px;
+    height: 12%;
+
+    background-color: rgb(108, 40, 255);
+    text-decoration: none;
+    color: #ffffff;
+}
+.menubutton:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.workbutton:hover{
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+/* MAIN */
+
+html, body{
+    min-height: 100vh;
+    min-width: 100vh;
+}   
+
+/* Jovem */
+.section_jovem{
+
+    margin-top: 150px;
+
+    background-image: linear-gradient(to right, #4f6e6e, transparent);
+
+    display: flex;
+}
+.liqui{
+    max-width: 100%;
+    height: auto; 
+
+    border: 0px solid black;
+    box-shadow: -1px 1px 10px 0px black;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.jovem_text{
+    margin: auto;
+    
+    padding-right: 100px;
+    padding-left: 30px;
+}
+.jovem_text p{
+    padding-bottom: 30px;
+}
+.jovem_text li{
+    padding-bottom: 10px;   
+}
+.jovem_text h1{
+    padding-bottom: 7px;   
+}
+
+/* Decathlon */
+
+.decathlon{
+    display: flex;
+    margin-top: 150px;
+    background-image: linear-gradient(to right, #4961db, transparent);
+}
+
+.dec_img{
+
+    box-shadow: -1px 1px 10px 0px black;
+    width: 485px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.div_dec{
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+.div_dec p{
+    padding-bottom: 30px;
+}
+.div_dec li{
+    padding-bottom: 10px;   
+}
+.div_dec h1{
+    padding-bottom: 7px;   
+}
+
+/* ICELAND */
+
+.iceland{
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: linear-gradient(to right, #6897ab, transparent);
+    display: flex;
+}
+
+.img_iceland{
+    box-shadow: -1px 1px 10px 0px black;
+    width: 485px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.div_ice{
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+.div_ice p{
+    padding-bottom: 30px;
+}
+.div_ice li{
+    padding-bottom: 10px;   
+}
+.div_ice h1{
+    padding-bottom: 7px;   
+}
+
+/* FOOTER */
+.footer-p{
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 17px;
+}
