@@ -54,7 +54,7 @@ header{
     border-radius: 40px;
     
     margin-left: 20px;
-    text-align: left;
+    text-align: center;
     
     font-size: 0.95vw;  
     padding: 20px;
@@ -76,4 +76,59 @@ header{
     background-color: white;
     color: black;
     transition: 0.3s;
+}
+section{
+
+    height: 400px;
+
+    background-color: #8DC2BC;
+
+    margin-top: 150px;
+    margin-bottom: 250px;
+}
+
+.ice_img{
+    display: inline-block;
+
+    width: 900px;
+    height: 405px;
+
+    background-image: url("imagens/perfilice-fixed.png");
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-repeat: space;
+    
+}
+.text_img{
+
+    display: inline-block;
+    width: 650px;
+
+    text-align: left;   
+
+    line-height: 1.2em;
+
+}
+.text_img p{
+
+    padding: 20px 25px 29px 40px;
+
+    background-color: #131313;
+    color: white;
+}
+.text_img h1{
+    padding: 20px 25px 5px 40px;
+
+    background-color: #131313;
+    color: white;
+}
+.flex{
+    display: flex;
+
+}
+.footer-p{
+    text-align: center;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 17px;
 }
